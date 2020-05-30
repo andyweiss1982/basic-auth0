@@ -1,4 +1,4 @@
-let auth0, user;
+let auth0;
 
 const config = {
   domain: "rbi-demo.auth0.com",
