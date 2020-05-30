@@ -37,7 +37,7 @@ function displayAppForAuthenticatedUser(user) {
   placeholder.innerHTML = `<button onclick="logout()">Log Out</button>`;
   main.innerHTML = `
     <h2>Hello, ${user.email}!</h2>
-    <img alt="${user.email}" src="${user.picture}"/>
+    <img alt="${user.email}" src="${user.picture || "avatar.png"}"/>
   `;
 }
 
